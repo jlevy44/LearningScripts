@@ -1,0 +1,3 @@
+import numpy as np
+print np.max(np.arange(100*100,999*999)[np.vectorize(lambda x: str(x) == str(x)[::-1] and np.any(np.all([np.mod(x*np.ones(899),np.arange(100,999)) == 0,np.floor_divide(x*np.ones(899),np.arange(100,999))<=999, np.floor_divide(x*np.ones(899),np.arange(100,999))>=100],axis=0)))(np.arange(100*100,999*999))])
+print np.max(np.arange(10*10,99*99)[np.vectorize(lambda x: str(x) == str(x)[::-1] and np.any(np.all([np.mod(x*np.ones(89),np.arange(10,99)) == 0,np.floor_divide(x*np.ones(89),np.arange(10,99))<=99, np.floor_divide(x*np.ones(89),np.arange(10,99))>=10],axis=0)))(np.arange(10*10,99*99))])
