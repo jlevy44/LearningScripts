@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+  <style>
+
+	table, th, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+
+	table {
+		border-spacing: 40px;
+	}
+
+	th, td {
+		padding: 15px;
+	}
+
+	th {
+		text-align: left;
+	}
+
+	table#t01 {
+		width: 100%;
+		background-color: blue;
+	}
+
+	table#t01 tr:nth-child(even) {
+		background-color: red;
+	}
+	table#t01 tr:nth-child(odd) {
+		background-color: purple;
+	}
+	table#t01 th {
+		color: white;
+		background-color: black;
+	}
+
+  </style>
+
+</head>
+
+<body>
+
+<a href="First.html">Page One</a> <br>
+
+<table style="width:100%" id="t01">
+	<caption>Stupid text </caption>
+  <tr>
+	<th> Josh </th>
+	<th> Jordan </th>
+	<th> Dave </th>
+  </tr>
+
+  <tr>
+	<th> 1 </th>
+	<th> 2 </th>
+	<th> 3 </th>
+  </tr>
+
+  <tr>
+	<th rowspan="2"> hi </th>
+	<td> yo  </td>
+	<td> ye </td>
+  </tr>
+
+  <tr>
+	<th colspan="2">Telephone</th>
+	<td> Name </td>
+  </tr>
+
+
+</table>
+
+<p>Here's my first list:</p>
+
+<ul style="list-style-type:square">
+	<li> One </li>
+	<li> Two </li>
+	<li> Three </li>
+
+</ul>
+
+<ol type="1">
+	<li> One </li>
+	<li> Two </li>
+	<li> Three </li>
+</ol>
+
+<p> Now a descriptive list: </p>
+
+<dl>
+	<dt> One </dt>
+	<dd> Two </dd>
+	<dt> Three </dt>
+	<dd> One </dd>
+	<dt> Two </dt>
+	<dd> Three </dd>
+
+</dl>
+
+<p> Now we nest the lists: </p>
+
+<ul>
+	<li> Jordan's Favorite Foods
+	<ul>
+		<li>No food</li>
+		<li> More Food</li>
+		<li> All Food</li>
+	</ul>
+	</li>
+	<li> Josh's favorite food:
+	<ul>
+		<li> Nothing</li>
+	</ul>
+	</li>
+
+</ul>
+
+<div style="background-color:black;color:white;padding:20px;">
+  <h2>London</h2>
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+</div>
+
+<h1>My <span style="color:red">Important</span> Heading</h1>
+
+<form>
+enter here
+<input type="text">
+
+
+
+<form action="/First.html" method="get">
+  <fieldset>
+    <legend>Hi everyone</legend>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+</fieldset>
+</form>
+<input type="submit" value="submit">
+
+
+</form>
+
+
+
+</body>
+
+</html>

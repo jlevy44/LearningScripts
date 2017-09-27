@@ -1,0 +1,11 @@
+IMG_1290.JPG
+%7/30/2015
+L=[65.6975      57.9945      47.9661      37.9675      47.1665      38.4369       50.309]*1e-3;
+a=[tail1 tail2 tail3 tail4 hip body head]*1e-3; %heights of various body parts
+b=[3.24998      7.05634      7.73309      16.9159      27.8423 84.0438 77.7427]*1e-3;
+mass_tot= insert;
+dc=3.9756*1e-3;
+ 
+Please copy above to MorphoModel now and/ or save elsewhere...
+.mat filename:D25.mat
+Please double click ans file in workplace and save as D25.mat

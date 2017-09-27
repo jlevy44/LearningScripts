@@ -1,0 +1,4 @@
+"","breast.cancer","no.breast.cancer","total"
+"positive",9,89.1,98.1
+"negative",1,900.9,901.9
+"total",10,990,1000

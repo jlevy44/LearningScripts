@@ -1,0 +1,14 @@
+
+<!--script src="w3.js"></script-->
+<!--script>
+    $(document).ready(function(){
+        $.get( "menu.html", function( data ) {
+            $( ".menu-html" ).append(data);
+        });
+    });
+    </script-->
+<!--div w3-include-html="menu.html"></div-->
+<!--div class="menu-html"></div-->
+<!--script>
+w3.includeHTML();
+</script-->

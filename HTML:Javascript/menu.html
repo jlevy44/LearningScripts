@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+.container a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+<body>
+
+  <header>
+    <center><img src="mmilogo.png" width="200" height="160"></img>
+    <h1>Moving Minds Initiative</h1>
+    <p><i>Behind every face, there's a story...</i></p></center>
+  </header>
+
+<nav>
+<div class="container">
+  <div class="dropdown">
+    <button class="dropbtn">Home</button>
+    <div class="dropdown-content">
+      <a href="#">News</a>
+      <a href="#">Calendar</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Mission</button>
+    <div class="dropdown-content">
+      <a href="MissionStatement.html">Mission Statement</a>
+      <a href="#">Values</a>
+      <a href="#">Goals</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Who We Are</button>
+    <div class="dropdown-content">
+      <a href="groupbio.html">Group Bio</a>
+      <a href="#">Current Members</a>
+      <a href="#">Alumni</a>
+      <a href="#">Current Collaborations</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Projects</button>
+    <div class="dropdown-content">
+      <a href="#">Apply for Project</a>
+      <a href="#">Kognito Simulations @ UC Berkeley</a>
+      <a href="#">High School Outreach</a>
+      <a href="#">Community Presentations</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Progress</button>
+    <div class="dropdown-content">
+      <a href="#">Outreach</a>
+      <a href="#">Implementation Guide</a>
+      <a href="#">Kognito @ Cal<br>Progress</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Documents</button>
+    <div class="dropdown-content">
+      <a href="#">Request Training Materials</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Get Involved</button>
+    <div class="dropdown-content">
+      <a href="#">Students</a>
+      <a href="#">Teachers</a>
+      <a href="#">Parents</a>
+      <a href="#">Become a Member</a>
+      <a href="#">Volunteer:<br>Position Openings</a>
+      <a href="#">Become a Collaborator</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+</nav>
+</body>
+</html>
